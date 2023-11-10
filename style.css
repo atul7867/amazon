@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+  }
+
+  .nev {
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .nevIn1 {
+
+    height: 50px;
+  }
+
+  .logo {
+    padding: 3px 0px 0px 13px;
+    margin-top: 3px;
+    height: 37px;
+    width: 113px;
+    display: flex;
+  }
+
+  /* box2 */
+  .border {
+    border: 1.5 solid transparent;
+  }
+
+  .border:hover {
+    border: 1.5px solid white;
+  }
+
+  .nev-address2 {
+
+    margin-right: 35px;
+    display: flex;
+  }
+
+  .add-first {
+    color: #cccccc;
+    font-size: 12px;
+    margin-left: 17px;
+  }
+
+  .add-sec {
+    font-size: 14px;
+    margin-left: 7px;
+    font-weight: 600;
+  }
+
+  /* box3         */
+  .nev-search1 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+  }
+
+  .search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-radius: 4px 0px 0px 4px;
+    border: none;
+  }
+
+  .search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+  }
+
+  .search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-radius: 0px 4px 4px 0px;
+    color: #0F1111;
+  }
+
+  .nev-search1:hover {
+    border: 2px solid orange;
+  }
+
+  /* box4 */
+  span {
+    font-size: 0.85rem;
+  }
+
+  /* box6  */
+  .nev-cart i {
+    font-size: 30px;
+  }
+
+  .nev-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+  }
+
+  /* menu bar */
+  .menubar {
+    background-color: #232f3E;
+    height: 39px;
+    width: 100%;
+    display: flex;
+    font-family: Arial, sans-serif;
+    color: #f7f0f0;
+    align-items: center;
+    text-align: center;
+  }
+
+  .menubar1 {
+    margin-left: 10px;
+    font-size: 17px;
+  }
+
+  .menubar p {
+    margin-left: 21px;
+    font-size: 14px;
+  }
+
+  .hero-section {
+    background-image: url("heroimage1.jpg");
+    height: 310px;
+    width: 100%;
+    /* position: relative; */
+    background-size: cover;
+    display: flex;      
+  }
+
+  .hero-inner {
+    box-sizing: border-box;
+    height: 39px;
+    display: flex;
+    background-color: #f5f6f6;
+    width: 96%;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    margin: 19% 2% 0% 2%;
+    font-family: Arial, sans-serif;
+    color: #0f1111;
+  }
+
+  .hero-inner a {
+    color: #007185;
+    text-decoration: none;
+  }
+
+  /* bottem section card  */
+
+  .box{
+    width: 300px;
+    height: 420px;
+    display:inline-block;
+    box-sizing: border-box;
+    background-color: white;
+    margin: 15px 15px 15px 15px;
+  }
+ 
+  
+
+  .box img{
+    width: 20%;
+    height: 45%;
+    position: absolute;;
+    margin: 60px 20px 0px 18px;
+  }
+ 
+  .contaner  h2{
+   font-family: Arial, sans-serif;
+   margin: 30px 0px 0px 20px;
+  }
+  .contaner a{
+   text-decoration: none;
+   margin: 300px 0px 0px 20px;
+   display: flex;
+   font-size: 12px;
+  }
+  a:hover{
+    color: red;
+    text-decoration: underline;
+  }
+  
+  
+.footbar{
+ width: 100%; 
+ height: 50px;
+ background-color: #465970;
+ text-align: center;
+ align-items: center;
+ justify-content: center;
+ display: flex;
+ 
+}
+.footbar p{
+  color: white;
+  font-size: 13px;
+}
+.footerbox{
+   
+  box-sizing: border-box;
+ width: 100%;
+ height: 380px;
+ /* border: 1px solid #dddddd; */
+ background-color: #232f3e;
+ justify-content: center;
+ display: flex;
+ font-family: Arial, sans-serif;
+ padding: 50px 0px 0px 0px;
+}
+ul{
+  font-size: 13px;
+  float: left;
+  color: white;
+  padding: 50px 50px 50px 50px;
+}
+dd{
+  padding-top: 10px;
+  color: #dddddd;
+}
+
+/* footer icon  */
+.footerIcon{
+  height: 100px;
+  border-top: 0.5px solid white;
+  background-color: #222f3d;
+  display: flex;
+  justify-content: center;
+}
+.footerInner{
+    display: inline-block;
+    margin: 30px 0px 0px 0px;
+}
+.footerIcon img{
+  width: 90px;
+  height: 50px;
+  margin: 25px 90px 0px 0px;
+}
+.footerInner button{
+  width: 130px;
+  border-radius: 3px;
+  height: 30px;
+  background-color: transparent;
+  color: #dddddd;
+  font-family: Arial, sans-serif;
+  border: 1px solid #dddddd;
+} 
